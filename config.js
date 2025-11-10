@@ -4,7 +4,7 @@ var config = {
   infra: {
     region: process.env.AWS_REGION || "us-west-2",
     dynamodb_table: process.env.DYNAMODB_TABLE_NAME || "Rooms",
-    dynamodb_endpoint: process.env.DYNAMODB_ENDPOINT || "http://127.0.0.1:8001"
+    dynamodb_endpoint: process.env.DYNAMODB_ENDPOINT
   },
   app: {
     hotel_name: process.env.HOTEL_NAME || "Hotel Yorba"
